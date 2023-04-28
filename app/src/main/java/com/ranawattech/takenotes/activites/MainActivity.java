@@ -1,12 +1,14 @@
-package com.ranawattech.takenotes;
+package com.ranawattech.takenotes.activites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.ranawattech.takenotes.R;
+import com.ranawattech.takenotes.activites.CreateNoteActivity;
 
 public class MainActivity extends AppCompatActivity {
     ImageView addNotes;
