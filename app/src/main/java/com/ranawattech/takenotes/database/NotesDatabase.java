@@ -7,6 +7,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import com.ranawattech.takenotes.dao.NoteDao;
 import com.ranawattech.takenotes.entites.Note;
 
 @Database(entities = Note.class , version =1 , exportSchema = false)
@@ -23,4 +24,7 @@ public abstract class NotesDatabase extends RoomDatabase {
         }
         return notesDatabase;
     }
+
+    public abstract NoteDao noteDao();
+
 }
